@@ -1,0 +1,42 @@
+{
+  "name": "the-war-of-colors",
+  "version": "0.0.0",
+  "description": "choose your color and battle against the others",
+  "main": "lib/index.js",
+  "scripts": {
+    "test": "npm run lint && mocha --compilers js:babel-register",
+    "lint": "eslint . && printf 'ESLint Passed\\n\\n'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/xcatliu/the-war-of-colors.git"
+  },
+  "keywords": [
+    "game",
+    "colors",
+    "color",
+    "war",
+    "battle"
+  ],
+  "author": "xcatliu <xcatliu@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/xcatliu/the-war-of-colors/issues"
+  },
+  "homepage": "https://github.com/xcatliu/the-war-of-colors#readme",
+  "devDependencies": {
+    "babel-eslint": "^5.0.0-beta6",
+    "babel-plugin-add-module-exports": "^0.1.3-alpha",
+    "babel-preset-es2015": "^6.3.13",
+    "babel-preset-react": "^6.3.13",
+    "babel-register": "^6.4.3",
+    "eslint": "^1.10.3",
+    "eslint-config-airbnb": "^3.1.0",
+    "eslint-plugin-react": "^3.15.0",
+    "mocha": "^2.3.4"
+  },
+  "dependencies": {
+    "color-js": "^1.0.3",
+    "lodash": "^4.0.0"
+  }
+}
