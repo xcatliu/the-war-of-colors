@@ -1,4 +1,4 @@
-# The war of colors
+# The War of Colors
 
 > Choose your favorite color and battle against the others.
 
