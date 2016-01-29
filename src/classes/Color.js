@@ -29,7 +29,7 @@ class Color extends ColorClass {
   skills() {
     const hue = this.hue();
     return {
-      hue: skillsMap[hue],
+      [hue]: skillsMap[hue],
     };
   }
 }

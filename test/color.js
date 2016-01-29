@@ -26,7 +26,7 @@ describe('Color', () => {
   it('should has method skills()', () => {
     assert.deepEqual(
       color.skills(),
-      { hue: { name: 'Lightning', type: 'ATTACK', attack: 38, manacost: 30 } }
+      { 36: { name: 'Lightning', type: 'ATTACK', attack: 38, manacost: 30 } }
     );
   });
 });
