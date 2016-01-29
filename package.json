@@ -16,7 +16,8 @@
     "colors",
     "color",
     "war",
-    "battle"
+    "battle",
+    "fight"
   ],
   "author": "xcatliu <xcatliu@gmail.com>",
   "license": "MIT",
@@ -36,7 +37,7 @@
     "mocha": "^2.3.4"
   },
   "dependencies": {
-    "color-js": "^1.0.3",
+    "color": "^0.11.1",
     "lodash": "^4.0.0"
   }
 }
