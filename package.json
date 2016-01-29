@@ -1,7 +1,7 @@
 {
   "name": "the-war-of-colors",
   "version": "0.0.0",
-  "description": "choose your color and battle against the others",
+  "description": "Choose your favorite color and battle against the others",
   "main": "lib/index.js",
   "scripts": {
     "test": "npm run lint && mocha --compilers js:babel-register",
